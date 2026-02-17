@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @raddy100
 - 👀 I’m interested in experimental robotics and control systems
-- 🌱 I’m currently learning MuJoCo and cosimulation with Matlab and Scilab
-- 💞️ I’m looking to collaborate on MuJoCo projects
+- 🌱 I’m currently learning MuJoCo
 
 - ⚡ Fun fact: I am an embedded software engineer
 
