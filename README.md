@@ -1,6 +1,6 @@
 # My Projects - Modular Robot Prototype
 
-**Addy — embedded software engineer**
+**Addison B. — embedded software engineer**
 
 A prototype modular robot built on the utility fog paradigm, and the engineering program behind
 roughly 50,000 lines of simulation, analysis and tooling code written to design it. On the recent
