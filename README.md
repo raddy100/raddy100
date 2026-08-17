@@ -9,10 +9,10 @@ work, **every line of that code was written by AI**, to my specification and und
 ## What I'm building
 
 A **utility foglet**: one module of a programmable-matter system. The utility fog paradigm calls for
-very large numbers of small identical units that bond to their neighbours and push and pull on one
+very large numbers of small identical units that bond to their neighbors and push and pull on one
 another, so that the aggregate behaves as material which can change its own shape and do work.
 
-My unit is a rhombic dodecahedron sitting in an FCC lattice, so it meets twelve neighbours
+My unit is a rhombic dodecahedron sitting in an FCC lattice, so it meets twelve neighbors
 face-to-face. Its frame is not machined — it is **beads and tubes threaded on a tensioned string**.
 Pulling the string tight squeezes each column together until it behaves as a rod, which makes every
 strut a pair of unilateral members sharing one line: a tension-only string and a compression-only
@@ -73,7 +73,7 @@ are published separately as `fogbot-method`.
 | Aug 2026 | 17,427 lines | 376 | 15 ADRs |
 
 **Headline result.** Six strategies for bracing the frame against buckling — guy nets, strut
-bundles, battens, tensegrity retrofits, added prestress, subdivision — were analysed and eliminated,
+bundles, battens, tensegrity retrofits, added prestress, subdivision — were analyzed and eliminated,
 each with a number. The pattern only appeared with all six on the table: every one was bracing an
 error that a longer part does not accumulate. Replacing bead stacks with single extruded tubes
 **removed the failure mode outright, by roughly 450×**, and buckling stopped governing the design.
@@ -113,7 +113,7 @@ start of every session and enforced before anything is committed.
 - **Radians against degrees.** The model computed joint limits in radians; MuJoCo defaults to
   degrees. Caught by reading the simulator's own defaults rather than trusting the derivation.
 
-- **A units error inside a study.** A section was modelled as a 5 mm cylinder when it is a 10 mm
+- **A units error inside a study.** A section was modeled as a 5 mm cylinder when it is a 10 mm
   square, overstating a structural gain as 16× when it is 6×. It survived several sessions, and
   every number downstream of it was computed correctly.
 
