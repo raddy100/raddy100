@@ -6,22 +6,6 @@ A prototype modular robot built on the utility fog paradigm, and the engineering
 roughly 50,000 lines of simulation, analysis and tooling code written to design it. On the recent
 work, **every line of that code was written by AI**, to my specification and under my review.
 
-| Codebases | Lines of code | Automated tests | Commits |
-|:---:|:---:|:---:|:---:|
-| **3** | **~50,000** | **950** | **613** |
-
----
-
-> ### I no longer hand-write production code. I specify it, gate it, and verify it.
->
-> On StringBot and FogBot — the two most recent codebases, **47,000 lines and 950 tests between
-> them** — every line was written by Claude. My work sits upstream and downstream of the model:
-> defining the problem, choosing the architecture, deciding what is allowed to be committed, and
-> proving that what came back is correct. The process documents described below exist because that
-> division of labour only works when it is enforced rather than intended.
-
----
-
 ## What I'm building
 
 A **utility foglet**: one module of a programmable-matter system. The utility fog paradigm calls for
@@ -140,6 +124,23 @@ start of every session and enforced before anything is committed.
 - **Two limits that were one.** Two failure modes were carried separately, with separate levers, for
   four sessions, and an entire design paradigm was built on the split. A single question dissolved
   it — they are two intercepts of one line.
+
+
+| Codebases | Lines of code | Automated tests | Commits |
+|:---:|:---:|:---:|:---:|
+| **3** | **~50,000** | **950** | **613** |
+
+---
+
+> ### I no longer hand-write production code. I specify it, gate it, and verify it.
+>
+> On StringBot and FogBot — the two most recent codebases, **47,000 lines and 950 tests between
+> them** — every line was written by Claude. My work sits upstream and downstream of the model:
+> defining the problem, choosing the architecture, deciding what is allowed to be committed, and
+> proving that what came back is correct. The process documents described below exist because that
+> division of labour only works when it is enforced rather than intended.
+
+---
 
 ---
 
